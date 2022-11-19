@@ -1,0 +1,52 @@
+#bg{
+    background-image: url("Clothing Website-Portfolio/Images/background9.jpg");
+    background-repeat: initial;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
+.brand-logo{
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+#peek{
+    font-family: 'Pacifico', cursive;
+    font-weight:lighter;
+    color: white;
+
+}
+#tuldok{
+    font-family: 'Pacifico', cursive;
+    font-weight:lighter;
+}
+
+.font{
+    font-family: 'Karla', sans-serif;
+    font-weight:bold;
+    
+}
+
+.container{
+    font-family: 'Anton', sans-serif;
+   
+    
+}
+
+.para{
+    color: white;
+    font: 72px;
+}
+
+.parallax-container {
+    height: 800px;
+  }
+
+#sub{
+    font-family: 'Karla', sans-serif;
+}
+
+#parag{
+    font-family: 'Karla', sans-serif;
+}

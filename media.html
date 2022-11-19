@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="new.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>MEDIA</title>
+</head>
+<body>
+    <ul class="collection with-header">
+        <li class="collection-header lime lighten-5"><h4>Circular Images</h4>
+            <div class="row">
+                <div class="col s12 m8">
+                    <div class="card-panel grey lighten-5 z-depth-1">
+                        <div class="row valign-wrapper">
+                            <div class="col s4 m2">
+                                <img src="Pictures/happydogs.jpg" alt class="circle responsive-img valign blue">
+                            </div>
+                            <div class="col s8 m10 gray">
+                                <span class="black-text">
+                                   Dogs develop in us a feeling of accountability, love us unconditionally, and are always there for us. Dogs require more upkeep but offer a variety of health benefits, whilst cats, rabbits, and gerbils are simpler to care for, require less exercise, and give our lives new meaning.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+        <ul class="collection with-header">
+            <li class="collection-header lime lighten-5"><h4>Videos</h4>
+                <div class="row">
+                    <div class="col s12 m8">
+                        <div class="video-container">
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/cpytykThPdQ?list=RDcpytykThPdQ" title="Morissette performs "Gusto Ko Nang Bumitaw" LIVE on Wish 107.5 Bus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <h5 class="grey-text">Morissette performs "Gusto Ko Nang Bumitaw" LIVE on Wish 107.5 Bus</h5>
+                        <p class="grey-text">Asia's Phoenix Morissette performs "Gusto Ko Nang Bumitaw" live on the Wsh 107.5 Bus! The track — which is the theme song of the Filipino TV series "The Broken Marriage Vow" — talks about the predicament that one faces when a relationship is about to fall apart. </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="collection with-header">
+            <li class="collection-header lime lighten-5"><h4>Responsive Videos</h4>
+                <video class="responsive-video" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                  </video>
+            </li>
+        </ul>
+        <ul class="collection with-header">
+            <li class="collection-header lime lighten-5"><h4>Material Box</h4>
+                <div class="material-placeholder">
+                    <img class="materialboxed responsive-img" width="650" src="Pictures/burger.jpg">
+                </div>
+            </li>
+        </ul>
+        <ul class="collection with-header">
+            <li class="collection-header lime lighten-5"><h4>Slider</h4>
+                <div class="slider">
+                    <ul class="slides">
+                      <li>
+                        <img src="Pictures/p1.jpeg"> <!-- random image -->
+                        <div class="caption center-align">
+                          <h3>This is our big Tagline!</h3>
+                          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="Pictures/p2.jpeg"> <!-- random image -->
+                        <div class="caption left-align">
+                          <h3>Left Aligned Caption</h3>
+                          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="Pictures/p3.jpeg"> <!-- random image -->
+                        <div class="caption right-align">
+                          <h3>Right Aligned Caption</h3>
+                          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="Pictures/p4.jpeg"> <!-- random image -->
+                        <div class="caption center-align">
+                          <h3>This is our big Tagline!</h3>
+                          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+            </li>
+            </li>
+                <a href="mediaa.html" target="_blank" class="btn-large waves-effect waves-light lime lighten-5 black-text">Open Full Slider</a>
+            </li>
+        </ul>
+        
+        
+
+        
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+          $(document).ready(function(){
+            $('.materialboxed').materialbox();
+        });
+          $(document).ready(function(){
+            $('.slider').slider();
+        });
+    </script>
+</body>
+</html>

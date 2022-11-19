@@ -1,0 +1,184 @@
+#background{
+    background-image: url("Pictures/BG.png");
+    background-repeat: initial;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
+#maindiv{
+    margin: auto;
+    
+    
+} 
+#menu{
+    color:white;
+    margin-left:0px;
+    font-size: 74pt;
+    
+}
+
+#sneak{
+    color: white;
+    margin-left: 50px;
+    font-size: 74pt;
+}   
+
+.a{
+    margin-left: 354px;
+    border-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 565px;
+    margin-top: 50px;
+}
+.a input{
+    width: 500px; 
+    height: 50px;
+    background-color: transparent; 
+    border-color: transparent;
+    border-right-color: transparent ;
+
+}
+
+.a i{
+    color: white;
+    position: absolute;
+    font-size: 24pt;
+}
+
+.fa-magnifying-glass{
+    padding:11px;
+    text-align: center;
+    
+}
+
+::placeholder{
+    color: white;
+    font-size: 12pt;
+
+}
+
+#heart{
+    color: white;
+    margin-top: 55px;
+    margin-left: 20px;
+    font-size: 45px;
+}  
+
+#cart{
+    color: white;
+    margin-top: 55px;
+    margin-left: 20px;
+    font-size: 45px;
+}  
+
+.title{
+    float: left;
+    position:relative;
+    margin-left: 0pt;
+}
+
+.box{
+    margin:auto;
+    width: 1810px;
+    height: 150px;
+    border-radius: 4px solid white;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    
+}
+
+#sub{
+    
+    margin: auto;
+    width: 1810px;
+    height: 31.8pt;
+    border-top: 2px solid white;
+
+}
+.sublevels {
+    float: left;
+}
+
+#kids{
+    margin-left: 160px;
+    color: white;
+    font-size: 24pt;
+}
+
+#men{
+    margin-left: 30px;
+    color: white;
+    font-size: 24pt;
+}
+
+#women{
+    margin-left: 30px;
+    color: white;
+    font-size: 24pt;
+}
+
+#sale{
+    margin-left: 30px;
+    color: white;
+    font-size: 24pt;
+}
+
+#trending{
+    margin-left: 30px;
+    color: white;
+    font-size: 24pt;
+}
+
+#follow{
+    margin-left: 600px;
+    color: white;
+    font-size: 24pt;
+}
+
+#fb{
+    margin-left: 10px;
+    color: white;
+    font-size: 22pt;
+    padding-top: 2px;
+}
+
+#ig{
+    margin-left: 10px;
+    color: white;
+    font-size: 24pt;
+}
+#yt{
+    margin-left: 10px;
+    color: white;
+    font-size: 24pt;
+}
+
+.body{
+    width: 1810px;
+    height: 700px;
+    margin:auto;
+    
+    
+    
+}
+#h1{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 80pt;
+    width: 900px;
+    color: white;
+
+}
+
+#p1{
+    margin-left: 150px;
+    font-size: 30pt;
+    color: white;
+    width: 900px;
+    text-align: justify;
+    
+}
+
+

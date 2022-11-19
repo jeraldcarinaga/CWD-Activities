@@ -1,0 +1,32 @@
+.bg{
+    background-image: url("BG.png");
+}
+
+.a{
+    margin-left: 250px;
+    border-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 430px;
+}
+.a input{
+    width: 400px; 
+    background-color: transparent; 
+    border-color: transparent;
+    border-right-color: transparent ;
+}
+
+.a i{
+    color: white;
+    position: absolute;
+    
+}
+
+.fa-magnifying-glass{
+    padding:4px;
+    text-align: center;
+    
+}
+::placeholder{
+    color: white;
+}

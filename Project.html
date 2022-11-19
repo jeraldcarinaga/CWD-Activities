@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+            <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="project.css.css">
+    <title>Projecct</title>
+</head>
+<body>
+    <div class="navbar-fixed">  
+        <nav class="transparent">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo center amber-text text-darken-4"><i class="material-icons">style</i>Sneak<span id="peek">Peek<span id="tuldok">.</span></span></a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li class="font"><a href="#" class="white-text">WOMEN</a></li>
+                        <li class="font"><a href="#" class="white-text">MEN</a></li>
+                        <li class="font"><a href="#" class="white-text">SALE</a></li>
+                        <li class="font"><a href="#" class="white-text">TRENDING</a></li>
+                
+                    </ul>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#"><i class="material-icons">favorite_border</i></a></li>
+                        <li><a href="#"><i class="material-icons">shopping_cart</i></a></li>
+                        <li><a href="#"><i class="material-icons">group</i></a></li>
+                      </ul>
+                </div>
+            </div>   
+        </nav>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('.parallax').parallax({
+              height:1000,
+              responsiveThreshold: 1000,
+          });
+          $('.scrollspy').scrollSpy();
+          $('.sidenav').sidenav({
+              edge:"right"
+          });
+          $('.tap-target').tapTarget();
+          $('.modal').modal();
+          $('.slider').slider({
+              indicators: false,
+              height: 920,
+          });
+      });
+    </script>
+</body>
+</html>
